@@ -5,3 +5,5 @@
 vim.keymap.set("n", "<leader>gB", function()
   Snacks.gitbrowse()
 end, { desc = "Git Browse" })
+
+vim.keymap.set("n", "<leader>za", "za", { desc = "Toggle fold under cursor" })

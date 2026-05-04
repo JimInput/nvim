@@ -8,5 +8,15 @@ return {
       -- or leave it empty to use the default settings
       -- refer to the configuration section below
     },
+    image = {
+      enabled = true,
+      math = {
+        enabled = true,
+      },
+      doc = {
+        enabled = true,
+        inline = true,
+      },
+    },
   },
 }
